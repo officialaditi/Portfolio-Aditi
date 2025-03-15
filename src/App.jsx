@@ -12,7 +12,7 @@ const App = () => {
       <div className="flex flex-col mt-[62px] p-6">
         <Routes>
           <Route path="/" element={<HomeScreen />} />
-          <Route path="/projects" element={<ProjectScreen />} />
+          <Route path="/work" element={<ProjectScreen />} />
           <Route path="/contact" element={<ContactScreen />} />
         </Routes>
       </div>
